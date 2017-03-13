@@ -45,7 +45,6 @@ setup(
         'pip >= 8.1',
         'cookiecutter >= 1.0',
         'voc >= 0.1.1',
-        'setuptools >= 27.0',
     ],
     license='New BSD',
     classifiers=[
@@ -59,6 +58,9 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Software Development',
         'Topic :: Utilities',
+    ],
+    setup_requires=[
+        'setuptools >= 27.0',
     ],
     test_suite='tests'
 )
